@@ -1,1 +1,1 @@
-var main = (function(){    var init = function () {        _setUpListners();    };    var _setUpListners = function() {    };    return {        init: init    };})();main.init();
+var main = (function(){    var init = function () {        _setUpListners();        if (new WOW().init()) {            console.log ('hello');        }    };    var _setUpListners = function() {    };    return {        init: init    };})();main.init();
