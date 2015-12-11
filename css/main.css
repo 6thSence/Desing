@@ -760,14 +760,21 @@ footer {
   font-family: GothBold;
   font-weight: 400;
 }
-.button_wrap .but:hover {
-  background: #2da8d2;
-}
-.button_wrap .but:active {
-  opacity: 0.9;
+.button_wrap .but:focus {
+  outline: none;
 }
 .button_wrap .but1 {
   float: left;
+}
+.button_wrap .but1:hover {
+  background: #2da8d2;
+}
+.button_wrap .but1:active {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  position: relative;
+  top: 3px;
 }
 .button_wrap .but2 {
   -webkit-box-shadow: none;
@@ -778,7 +785,7 @@ footer {
   border: 1px solid #fff;
 }
 .button_wrap .but2:hover {
-  background: #9cd7eb;
+  background: #c0c0c0;
 }
 .button_wrap .but2:active {
   opacity: 0.9;
@@ -803,7 +810,6 @@ footer {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   padding: 35px 40px;
-  border: 1px solid black;
   -webkit-box-shadow: #000 0px 1px 3px, #fff 0px 1px 3px inset;
   -moz-box-shadow: #000 0px 1px 3px, #fff 0px 1px 3px inset;
   box-shadow: #000 0px 1px 3px, #fff 0px 1px 3px inset;
@@ -838,10 +844,10 @@ footer {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-box-shadow: #fff 0px 1px 3px, #000 0px 1px 3px inset;
-  -moz-box-shadow: #fff 0px 1px 3px, #000 0px 1px 3px inset;
-  box-shadow: #fff 0px 1px 3px, #000 0px 1px 3px inset;
-  border: none;
+  -webkit-box-shadow: 0 2px 5px -1px rgba(255, 255, 255, 0.2), #000 0px 1px 5px inset;
+  -moz-box-shadow: 0 2px 5px -1px rgba(255, 255, 255, 0.2), #000 0px 1px 5px inset;
+  box-shadow: 0 2px 5px -1px rgba(255, 255, 255, 0.2), #000 0px 1px 5px inset;
+  border: 1px solid #6651AF;
   padding-left: 20px;
   background: #594ba1;
   -moz-box-sizing: border-box;
@@ -878,9 +884,9 @@ footer {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-box-shadow: #000 0px 1px 4px, #fff 0px 1px 2px inset;
-  -moz-box-shadow: #000 0px 1px 4px, #fff 0px 1px 2px inset;
-  box-shadow: #000 0px 1px 4px, #fff 0px 1px 2px inset;
+  -webkit-box-shadow: #000 0px 1px 4px, #fff 0px 1px 2px -1px inset;
+  -moz-box-shadow: #000 0px 1px 4px, #fff 0px 1px 2px -1px inset;
+  box-shadow: #000 0px 1px 4px, #fff 0px 1px 2px -1px inset;
   border: none;
   padding-left: 20px;
   background: #594ba1;
