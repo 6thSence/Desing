@@ -16,7 +16,15 @@ body {
     -webkit-font-smoothing: antialiased;
 	width:100%;
 	height:100%;
-    background: url('../img/bg.png') no-repeat;
+    position: relative;
+    //background: url('../img/bg.png') no-repeat;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4f5ac5+0,7855b4+51,a053aa+100 */
+    background: #4f5ac5; /* Old browsers */
+    background: -moz-linear-gradient(left,  #4f5ac5 0%, #7855b4 51%, #a053aa 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #4f5ac5 0%,#7855b4 51%,#a053aa 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #4f5ac5 0%,#7855b4 51%,#a053aa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f5ac5', endColorstr='#a053aa',GradientType=1 ); /* IE6-9 */
+
     padding-top: 362px;
     @include box-sizing;
 }
