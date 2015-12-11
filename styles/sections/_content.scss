@@ -1,0 +1,41 @@
+.button_wrap {
+  width: 1400px;
+  height: 56px;
+  padding-left: 469px;
+  padding-right: 469px;
+  @include clearfix;
+  @include box-sizing;
+.but {
+  height: 100%;
+  width: 220px;
+  background: #37c7f8;
+  @include border-radius(3px);
+  border: none;
+  &:hover {
+    background: #2da8d2;
+  }
+  &:active {
+    opacity: 0.9;
+  }
+  @include box-shadow(#1587ac 0px 3px 0px);
+  text-transform: uppercase;
+  color: #fff;
+  font-family: GothBold ;
+  font-weight: 400;
+}
+  .but1 {
+    float: left;
+  }
+  .but2 {
+    @include box-shadow(none);
+    float: right;
+    background: none;
+    border: 1px solid #fff;
+    &:hover {
+    background: #9cd7eb;
+  }
+    &:active {
+      opacity: 0.9;
+    }
+  }
+}
